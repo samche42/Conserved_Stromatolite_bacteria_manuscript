@@ -5,6 +5,6 @@ Heatmaps in the manuscript were created in iTol. Data was prepared in the follow
 
 1. ORFs were called in all genomes using prokka 1.14.5.
 2. ORFs were assigned KO annotations using kofamscan 1.0.0
-3. KO annotations for each bin (in Kofamscan output folder) were parsed using kegg_parser.py to obtained counts of all KO entries listed in Phosphate_query. Phosphate_query was created manually.
-4. KO counts were normalized to bin coverage i.e KO abundance = KO count*(bin_coverage/sum_of_all_Bins_coverage_in_sample)*100
+3. KO annotations for each bin (in Kofamscan output folder) were parsed using kegg_parser.py to obtained counts of all KO entries listed in Phosphate_query and other metabolite ther query files. Phosphate_query and other query files used in this study were created manually using a combination of literature and KEGG searches.
+4. KO counts were normalized to bin coverage i.e KO abundance = KO count*(bin_coverage/sum_of_all_Bins_coverage_in_sample)*100.
 See Raw_KO_counts_with_metadata.xlsx for clarification
