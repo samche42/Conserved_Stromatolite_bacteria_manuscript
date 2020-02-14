@@ -9,7 +9,7 @@ mine.long$Genome <- factor(mine.long$Genome, levels = unique(mine.long$Genome))
 t <- ggplot(data = mine.long, mapping = aes(x = Class, y = Genome, fill = Abundance),fill = "transparent") +
 geom_tile() +
 xlab(label = "Site") + xlab(label = "Function") +
-scale_fill_viridis(option="magma", direction=-1, limits=c(0, 300)) +
+scale_fill_viridis(option="magma", direction=-1, limits=c(0, 620)) +
 theme(axis.text.y = element_text(size = 10, color="black"), 
 axis.text.x = element_text(angle=90, hjust=1, size =10, color="black"), 
 axis.title.x =element_text(size=10, color="black"), 
