@@ -1,8 +1,8 @@
 #This script can be used to count the number of times a particluar set of KO entries 
 #appears in n genomes. List of KOs needs one KO entry per line and output from kofamscan. 
-#Script will output KO counts in a table. Example KO list in git repo "Phosphate_query"
+#Script will output KO counts in a table. Example KO list in git repo "All_query"
 
-#Usage: python3 kegg_parser.py path/to/kofamsccan/output Phosphate_query
+#Usage: python3 kegg_parser.py path/to/kofamsccan/output All_query
 
 import os
 import sys
