@@ -1,5 +1,6 @@
 #This script can be used to count the number of times a particluar set of KO entries 
-#appears in n genomes. List of KOs needs one KO entry per line and output from kofamscan. 
+#appears in kofamscan annotation output from prodigal gene calling. 
+#List of KOs needs one KO entry per line  
 #Script will output KO counts in a table. Example KO list in git repo "All_query"
 
 #Usage: python3 kegg_parser.py path/to/kofamsccan/output All_query
